@@ -2,6 +2,12 @@ import 'package:flutter/material.dart';
 import './pages/Home.dart';
 import './pages/JianKang.dart';
 import './pages/TongZhi.dart';
+import './pages/BaoShi.dart';
+import './pages/TouSu.dart';
+import './pages/JiaoFei.dart';
+import './pages/DangXuan.dart';
+import './pages/BaoXiu.dart';
+import './pages/GengDuo.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,6 +35,12 @@ class MyApp extends StatelessWidget {
       routes: {
         "JianKang": (context) => JianKang(),
         "TongZhi": (context) => TongZhi(),
+        "BaoShi": (context) => BaoShi(),
+        "TouSu": (context) => TouSu(),
+        "JiaoFei": (context) => JiaoFei(),
+        "DangXuan": (context) => DangXuan(),
+        "BaoXiu": (context) => BaoXiu(),
+        "GengDuo": (context) => GengDuo(),
       },
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
